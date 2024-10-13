@@ -15,6 +15,7 @@ import {
   CardHeader,
   CardTitle,
 } from '../../../components/ui/card'
+
 const data = [
   { date: '10/12', revenue: 1200 },
   { date: '11/12', revenue: 800 },
@@ -31,7 +32,7 @@ export function RevenueChart() {
       <CardHeader className="flex-row items-center justify-between pb-8">
         <div className="space-y-1">
           <CardTitle className="text-base font-medium">
-            Receita o período
+            Receita do período
           </CardTitle>
           <CardDescription>Receita diária no período</CardDescription>
         </div>
