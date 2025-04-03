@@ -48,3 +48,21 @@ export default tseslint.config({
   },
 })
 ```
+
+## Subir o projeto pizza shop
+
+- Subir o banco de dados
+  - No terminal do backend 
+    - docker composse up -d
+
+- Rodar o back no wsl
+  - bun i
+  - bun migrate
+  - bun seed
+  - bun dev
+
+- Rodar o front local
+  - npm run dev 
+
+- Rodar o front com msw (mock)
+  - npm run dev:test
