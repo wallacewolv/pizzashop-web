@@ -53,7 +53,7 @@ export default tseslint.config({
 
 - Subir o banco de dados
   - No terminal do backend 
-    - docker composse up -d
+    - docker compose up -d
 
 - Rodar o back no wsl
   - bun i
@@ -66,3 +66,9 @@ export default tseslint.config({
 
 - Rodar o front com msw (mock)
   - npm run dev:test
+
+- Rodar o playwright
+  - npx playwright test
+
+- Rodar o playwright com interface de visualização
+  - npx playwright test --ui
